@@ -151,11 +151,33 @@ section {
 }
 
 /*Header-content*/
-.header-content {
+/*.header-content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   min-height: 100vh;
+}*/
+
+.header-content {
+  background-image: url('hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: auto; /* Full height */
+  width: auto; /* Full width */
+  z-index: -1;
 }
+
+.header-content {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero.jpg');
+}
+
+.header-content {
+  background-image: url('hero.jpg');
+  filter: brightness(85%);
+}
+
+
+
 .header-content .left-header {
   display: flex;
   align-items: center;
