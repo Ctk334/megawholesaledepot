@@ -169,6 +169,7 @@ section {
 
 .header-content {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero.jpg');
+  border-radius:5rem;
 }
 
 .header-content {
@@ -185,8 +186,8 @@ section {
 }
 .header-content .left-header .h-shape {
   transition: all 0.4s ease-in-out;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
   background-color: var(--color-secondary);
   position: absolute;
   left: 0;
