@@ -169,7 +169,7 @@ section {
 
 .header-content {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero.jpg');
-  border-radius:5rem;
+  border-radius:3rem;
 }
 
 .header-content {
@@ -200,7 +200,7 @@ section {
   border-radius: var(--br-sm-10);
   height: auto;
   width: 88%;
-  border-radius: 5rem;
+  border-radius: 3rem;
   margin-left: 4rem;
   background-color: var(--color-black);
   transition: all 4s ease-in-out;
@@ -208,7 +208,7 @@ section {
 .header-content .left-header .image img {
   width: 100%;
   height: auto;
-  border-radius: 5rem;
+  border-radius: 3rem;
   -o-object-fit: cover;
      object-fit: cover;
   transition: all 4s ease-in-out;
