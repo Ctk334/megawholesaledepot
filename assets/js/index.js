@@ -1,8 +1,8 @@
 function sendMail(){
     var params ={
-        name: document.getElementById("name").value,
-        email: document.getElementById("email").value,
-        message: document.getElementById("message").value,
+        from_name : document.getElementById("name").value,
+        email_id : document.getElementById("email").value,
+        message : document.getElementById("message").value,
         };
     const  serviceID = "service_2jcr0h7";
     const  templateID = "template_lzvek6m";
